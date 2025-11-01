@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://nisarg7102.github.io/towpoint-resq-india/",
+  "homepage": "https://towpoint.in",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
