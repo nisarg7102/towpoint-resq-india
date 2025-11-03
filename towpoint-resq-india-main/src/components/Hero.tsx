@@ -1,5 +1,6 @@
 import { Phone, Clock, Zap, Shield } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { OptimizedImage } from "@/components/ui/optimized-image";
 import heroImage from "@/assets/hero-towing.jpg";
 
 const Hero = () => {
@@ -7,10 +8,11 @@ const Hero = () => {
     <section className="relative min-h-[90vh] flex items-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img
+        <OptimizedImage
           src={heroImage}
           alt="Professional tow truck helping a car on highway - 24x7 roadside assistance"
           className="w-full h-full object-cover"
+          priority={true}
         />
         <div className="absolute inset-0 bg-gradient-to-r from-primary/95 via-primary/80 to-primary/60"></div>
       </div>
